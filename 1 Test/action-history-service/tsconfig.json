@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                                  // Уровень стандарта ECMAScript, к которому будет компилироваться код
+    "module": "commonjs",                             // Система модулей
+    "strict": true,                                   // Включение строгой проверки типов
+    "esModuleInterop": true,                          // Обеспечивает совместимость с модулями ES6
+    "skipLibCheck": true,                             // Пропуск проверки типов библиотек
+    "forceConsistentCasingInFileNames": true,         // Следит за правильным написанием имен файлов
+    "outDir": "./dist",                               // Каталог для компилированных файлов
+    "rootDir": "./src"                                // Корневая директория для исходных файлов
+  },
+  "include": [
+    "src/**/*.ts"                                     // Включаем все файлы .ts в папке src
+  ],
+  "exclude": [
+    "node_modules"                                    // Исключаем папку node_modules
+  ]
+}
